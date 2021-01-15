@@ -1,0 +1,100 @@
+.ql{
+    margin-left: 10%;
+    padding: 0 200px;
+}
+.date1{
+    float: left;
+    width: 50%;
+}
+.date2{
+    float: left;
+    width: 50%;
+}
+.table{
+    padding-top: 60px;
+}
+.table table , tr, th{
+    border: 2px solid;
+    color: black;
+}
+#taikhoanadmin{
+    float: right;
+    padding: 10px;
+}
+#idmain{
+    padding: 0 10%;
+}
+/*=====quanlysp=====*/
+#quanlysp
+{
+    width: auto;   
+	margin: 30px 150px;
+}
+#quanlysp h1
+{
+	text-align: center;
+}
+#quanlysp th,td
+{
+	padding:15px;
+}
+#quanlysp table,th,td
+{
+ /* border-collapse: collapse; */
+ text-align: center;
+ border: 2px solid black;
+}
+#quanlysp table tr th img
+{
+	width: 100px;
+	height: 100px;
+}
+
+.bgTable
+{
+	background-color: rgb(240,240,240);
+}
+.bgTablee
+{
+	background-color:white;
+}
+.bgTable1
+{
+	background-color: #141414;
+}
+.bgTable1 th
+{
+	color:white;
+}
+
+.buttonTable
+{
+	padding:5px 10px 5px 10px;
+	color: white;
+	border:0px;
+	border-radius: 5px;
+	width: 60px;
+	text-indent: 16px;
+	outline-color:white;
+}
+.button1
+{
+	background-color: rgb(51,122,183);
+	position: absolute;
+	margin-left:-70px;
+}
+.button2
+{
+	background-color: rgb(49,176,213);
+}
+.button3
+{
+	background-color: rgb(217,83,79);
+	position: absolute;
+	margin-left:10px;
+}
+/* -----thong ke---------- */
+#thongke{
+    margin: 30px 20%;
+}
+

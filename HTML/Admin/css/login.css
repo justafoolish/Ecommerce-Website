@@ -1,0 +1,9 @@
+.heading-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #2f3640;
+}
+.userbox {
+    margin: 20%;
+}

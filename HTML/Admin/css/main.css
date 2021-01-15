@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topheader {
+    background-color: #000000;
+    color: white;
+    z-index:999;
+}
+.box {
+    position: absolute;
+    margin-top: 5%;
+}
+#search input {
+    background-color: #000000;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 50%;
+    height: 100%;
+    font-size: 17px;
+}
+#search button {
+    display: inline-block;
+    background-color: #000000;
+    border: none;
+}
+
+#search input:focus {
+    outline: none;
+}
+#search button i:hover {
+    color: #02b4fc;
+}
+#search button:focus {
+    outline: none;
+}
+
+.box button i{
+    font-size: 30px;
+    color: white;
+}
+.toplogo {
+    position: relative;
+}
+.logoimg {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.user-icon {
+    color: white;
+    width: 25px;
+}
+.acc-cart span{
+    position: relative;
+    float: right;
+    margin: 5%;
+}
+.acction-acc a {
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 30px;
+    float: left;
+}
+.acction-cart a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    float: left;
+}
+.acc-cart span a:hover {
+    color: #7cbeff;
+}
+/*-----------------------*/
+.menubar {
+    position: relative;
+    background-color: #000000;
+    z-index:999;
+}
+#menu ul {
+    background-color: #000000;
+    /*background-image: linear-gradient(#1f51f5 10%,#3d60fa 50%,#4ec3f1 100%);*/
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+  
+} 
+#menu li{
+    color:#ffffff ;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    position: relative;
+    z-index: 999;
+}
+#menu a{
+    text-decoration: none;
+    color:#ffffff;
+    display: block;
+}
+#menu a:hover{
+    background-color: #ffffff;
+    color: #2327ff;
+}
+/*-----menu con (sản phẩm)-----*/
+.sub-menu li{
+    display: none;
+    z-index:999;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+#menu li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li {
+    margin-left: 0 !important;
+}
+/**/
+.slide {
+    margin: 0;
+}
+.hpproduct {
+    position: relative;
+}
+.newproduct {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.leftline, .rightline{
+    margin-top: 2%;
+    border: none;
+    border-bottom: 1px dotted gray;
+}
+.clr {
+    background-color: black;
+    height: 100%;
+}
+/*-------------------*/
+.upperfter {
+    position: relative;
+    padding: 15px;
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+.fter {
+    position: relative;
+    padding: 15px;
+    background-color: #000000; /*2f3640*/
+    color: white;
+}
+.fter h5 {
+    margin: 5px;
+}
+.card img {
+    width: 100%;
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}

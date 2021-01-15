@@ -1,0 +1,185 @@
+<!DOCTYPE >
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <!-- <title>Trang chủ-QTV</title> -->
+    <title>HighLight</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-4.5.3-dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/product.js"></script>
+    <script type="text/javascript" src="../js/homepage.js"></script>
+    <!-- <link href="trùm cuối.css" rel="stylesheet" type="text/css" /> -->
+    <script type="text/javascript" src="../js/admin.js"></script>
+    <script type="text/javascript">
+        var taikhoan = localStorage.getItem("admin");
+        if (taikhoan != 1) {
+            location.href = "dangnhapadmin.html";
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="main-header topheader">
+        <div class="container">
+            <div class="row row-flex p-1">
+                <div class="col-md-4 col-4">
+                    <div class="box">
+                        <form name="search" id="search">
+                            <input type="text" name="keywords" size="50" placeholder="Tìm Kiếm">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix visible-xs"></div>
+                <div class="col-md-4 col-4 toplogo">
+                    <div class="main-header--logo text-center">
+                        <a href="../../index.html">
+                            <h1 class="logo">
+                                <img src="../image/logo2.png" alt="HighLight" class="logoimg img-reponsive">
+                            </h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="clearfix visible-xs"></div>
+                <div class="col-md-4 col-4 float-right">
+                    <!-- <div class="acc-cart">
+                        <span class="acction-cart">
+                            <a href="#">Đăng Xuất</a>
+                        </span> -->
+                    <!-- <span class="acction-acc">
+                            <a href="#">Chào Admin</i></a>
+                            
+                        </span> -->
+                    <div id="taikhoanadmin">
+
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr style="margin: 0; background-color: #006aff;">
+    <!--Thanh navigation bar-->
+    <div class="container-fluid menubar">
+        <div class="menu-desktop">
+            <nav id="menu">
+                <ul>
+
+                    <li><a href="../html/quanlysanpham.html">SẢN PHẨM</a></li>
+                    <li><a href="../html/quanly-dh.html">ĐƠN HÀNG</a></li>
+                    <li><a href="../html/quanlykhachhang.html">NGƯỜI DÙNG</a></li>
+                    <li><a href="../html/thongke.html">THỐNG KÊ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="thongke">
+        <h2 class="font-weight-bolder" style="text-align: center;color: #1046f7;">THỐNG KÊ</h2>
+        <table>
+            <tr>
+                <th>STT</th>
+                <th style="width:100px">Mã hàng</th>
+                <th style="width:350px">Tên hàng</th>
+                <th>Đã bán</th>
+                <th style="width:70px">Tồn kho</th>
+                <th>Doanh thu (triệu đồng)</th>
+                <th style="width:100px">Trạng thái</th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">HO11</td>
+                <td align="center" style="width:340px">Áo len có mũ</td>
+                <td align="center">120</td>
+                <td align="center" style="width:70px">30</td>
+                <td align="center">5,4</td>
+                <td align="center">Còn hàng</td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td align="center">BA01</td>
+                <td align="center" style="width:340px">Balo con thỏ</td>
+                <td align="center">90</td>
+                <td align="center" style="width:70px">20</td>
+                <td align="center">13</td>
+                <td align="center" style="width:auto;color:red">Cần nhập</td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td align="center">TE05</td>
+                <td align="center" style="width:340px">Áo thun màu loan</td>
+                <td align="center">50</td>
+                <td align="center" style="width:70px">50</td>
+                <td align="center">5,6</td>
+                <td align="center">Còn hàng</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">SW03</td>
+                <td align="center" style="width:340px">Áo len Tsun Cầu vòng</td>
+                <td align="center">150</td>
+                <td align="center" style="width:70px">20</td>
+                <td align="center">4,3</td>
+                <td align="center" style="width:auto;color:red">Cần nhập</td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td align="center">TE07</td>
+                <td align="center" style="width:340px">Áo thun phản quang</td>
+                <td align="center">100</td>
+                <td align="center" style="width:70px">50</td>
+                <td align="center">8,9</td>
+                <td align="center">Còn hàng</td>
+            </tr>
+            <tr>
+                <td align="center">6</td>
+                <td align="center">PA03</td>
+                <td align="center" style="width:340px">Quần bo gấu</td>
+                <td align="center">10</td>
+                <td align="center" style="width:70px">30</td>
+                <td align="center">5,4</td>
+                <td align="center">Còn hàng</td>
+            </tr>
+            <tr>
+                <td align="right" colspan="7" style="font-size: 20px;padding-right:160px">Tổng doanh thu : 37,6 triệu đồng</td>
+            </tr>
+
+        </table>
+    </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container-fluid upperfter">
+            <div class="row ml-4 mt-3">
+                <div class="col-md-5">
+                    <h4>HỆ THỐNG CỬA HÀNG</h4> <br>
+                    <p>Chi nhánh 1: 273, An Dương Vương, Quận 5, Tp.HCM</p>
+                    <p>Chi nhánh 2: 105, Bà Huyện Thanh Quan, Quận 3, Tp.HCM</p>
+                    <p>Chi nhánh 3: 4, Tôn Đức Thắng, Quận 1, Tp.HCM</p>
+                </div>
+                <div class="col-md">
+                    <h4 class="mb-4">CHÍNH SÁCH & DỊCH VỤ</h4>
+                    <a style="color: white;" href="../html/giaonhan-doitra.html"><i class="fa fa-truck mr-2" aria-hidden="true"></i>Giao nhận và đổi trả</a> <br>
+                    <a style="color: white;" href="../html/cs-baomat.html"><i class="fa fa-key mr-2" aria-hidden="true"></i>Bảo mật</a>
+                </div>
+                <div class="col-md">
+                    <h4 class="mb-4">LIÊN HỆ</h4>
+                    <p>Điện thoại: 0123456789 <br> Email: hotro@hightlight.com</p>
+                </div>
+            </div>
+        </div>
+        <hr style="background-color: white; height: 1px; margin: 0; padding: 0;">
+        <div class="container-fluid fter text-center">
+            <h7>Copyright © 2020 Highlight. Powered by JaaFaa</h7>
+        </div>
+    </footer>
+
+</body>
+
+</html>

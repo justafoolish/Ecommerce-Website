@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="mainnhap.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+
+    <script type="text/javascript" src="../js/admin.js"></script>
+
+    <style>
+        .thongbaotoanbo,
+        .thongbaoemail,
+        .thongbaopass {
+            color: red;
+            width: 300px;
+            position: relative;
+            font-size: 12px;
+        }
+        
+        body {
+            background: url("../image/lake-aurora.jpg");
+            background-size: cover;
+            background-position: left;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- hết phần header rồi!!! -->
+    <div id="formm">
+        <!-- <h3>Đăng Nhập / Đăng Ký</h3> -->
+        <div class="thongbaotoanbo" id="z-ErrorMailorPass" style="font-size: 15px;padding-bottom: 8px;"></div>
+        <div class="container" id="container" style="width: 400px;">
+
+            <form action="#" method="GET" style="margin-right: 15px; margin-left: -15px;">
+                <div class="thongbaotoanbo" id="z-ErrorMailorPass"></div>
+                <h2>Quản trị viên</h2>
+                <!-- nhap mail -->
+                <!-- <input type="email" placeholder="Email" /> -->
+                <div><input type="text" placeholder="Tên đăng nhập" id="email" size="35" onkeyup="ghi()"></div>
+                <div class="thongbaoemail" id="z-email"></div>
+
+                <!-- nhap password -->
+                <!-- <input type="password" placeholder="Mật khẩu" /> -->
+                <div><input type="password" placeholder="Mật khẩu" id="pw" size="35" onkeyup="ghi()"></div>
+                <div class="thongbaopass" id="z-pw"></div>
+
+                <button onclick="check()">Đăng Nhập</button>
+
+            </form>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+
+    <!-- Đây là footer!!! -->
+
+</body>
+
+</html>

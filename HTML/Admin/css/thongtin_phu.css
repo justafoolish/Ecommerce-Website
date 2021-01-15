@@ -1,0 +1,16 @@
+.thongtin{
+    margin-left: 30px;
+}
+.thongtin h2{
+    text-align: center;
+}
+.thongtin h4{
+    font-size: larger;
+    color: #2f21f8;
+}
+.demuc{
+    color: #e70303;
+}
+.thongtin ul{
+    list-style-type: none;
+}
